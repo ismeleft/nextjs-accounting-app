@@ -47,7 +47,7 @@ const accounting = () => {
   };
 
   return (
-    <div>
+    <div className={styles.accountingApp}>
       <form
         action=""
         className="accounting-form"

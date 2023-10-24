@@ -55,3 +55,11 @@ li {
   justify-content: space-between;
   margin: 20px 0px;
 }
+
+@media (max-width: 768px) {
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}

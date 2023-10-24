@@ -14,3 +14,12 @@
   background-color: #f39a9d;
   cursor: pointer;
 }
+.accountingApp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media (max-width: 768px) {
+  .accountingApp {
+  }
+}
