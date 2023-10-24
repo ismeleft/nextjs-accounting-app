@@ -1,0 +1,16 @@
+.space {
+  margin: 10px 20px;
+  display: inline-block;
+}
+.positive {
+  color: green;
+}
+
+.negative {
+  color: red;
+}
+
+.deleteBtn {
+  background-color: #f39a9d;
+  cursor: pointer;
+}
