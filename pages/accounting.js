@@ -9,8 +9,8 @@ import {
   query,
   where,
 } from "firebase/firestore";
-import firebaseModule from "./firebase";
-import firebase from "./firebase";
+import firebaseModule from "../utils/firebase";
+import firebase from "../utils/firebase";
 const { app, db, auth } = firebaseModule;
 import {
   getAuth,
